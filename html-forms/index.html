@@ -14,13 +14,13 @@
       <input type="text" name="email" id="address">
     </div>
     <div>
-      Why is coding cool?<br>
-      <select name="reason">
-        <option>Select an option</option>
-        <option>Because it's interesting</option>
-        <option>Because it's fun</option>
-        <option>Because it's powerful</option>
-      </select>
+      <label for="choose">Why is coding cool?</label><br>
+        <select name="reason" id="choose">
+          <option>Select an option</option>
+          <option>Because it's interesting</option>
+          <option>Because it's fun</option>
+          <option>Because it's powerful</option>
+        </select>
     </div>
     <div>
       Favorite Language (choose one)<br>
@@ -29,13 +29,13 @@
       <input type="radio" name="languages" value="javascript" id="js"><label for="js">Javascript</label>
     </div>
     <div>
-      Would you like to sign up for more information?<br>
-      <input type="checkbox" name="information" value="signup" id="register"><label for="register">Sign me up!</label>
+      <label for="register">Would you like to sign up for more information?<br>
+      <input type="checkbox" name="information" value="signup" id="register">Sign me up!</label>
     </div>
     <div>
-      Comments<br>
-      <textarea name="comments" cols="30" rows="10"></textarea><br>
-      <input type="submit" name="submit" value="submit">
+      <label for="message">Comments</label><br>
+      <textarea name="comments" cols="30" rows="10" id="message"></textarea><br>
+      <label for="send"><input type="submit" name="submit" value="submit" id="send"></label>
     </div>
   </form>
 </body>
