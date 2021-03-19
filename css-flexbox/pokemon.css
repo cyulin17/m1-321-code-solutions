@@ -9,13 +9,3 @@
   width: 100%;
   background-color: lightgray;
 }
-
-/* display-flex */
-
-#card-deck {
-  display: flex;
-}
-
-.card-container {
-  padding: 6px;
-}
