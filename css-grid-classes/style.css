@@ -12,6 +12,14 @@
   width: calc(100% / 3);
 }
 
+.column-one-fourth {
+  width: 25%;
+}
+
 .column-one-fourth img {
   width: 100%;
+}
+
+.column-two-third {
+  width: 66%;
 }
