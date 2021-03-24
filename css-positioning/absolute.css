@@ -31,10 +31,15 @@
   text-transform: uppercase;
 
   /* your code here */
+  position: absolute;
+  top: 150px;
 }
 
 .overlay {
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.75));
 
   /* your code here */
+  position: absolute;
+  width: 300px;
+  height: 300px;
 }
