@@ -51,6 +51,10 @@ h3 {
   margin-left: 500px;
 }
 
+.nav li {
+  display: inline;
+}
+
 .nav-item {
   padding: 30px;
 }
