@@ -1,0 +1,76 @@
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #f7f8fa;
+}
+
+.title {
+  font-weight: 800;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  width: calc(100% / 4);
+}
+
+.screen-container {
+  width: 300px;
+  height: 500px;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.icon-container {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  margin-left: 140px;
+}
+
+.screen-1 {
+  background-image: url(./images/screen-1.png);
+}
+
+.screen-2 {
+  background-image: url(./images/screen-2.png);
+}
+
+.screen-3 {
+  background-image: url(./images/screen-3.png);
+}
+
+.screen-4 {
+  background-image: url(./images/screen-4.png);
+}
+
+.switch-icon {
+  background-image: url(./images/switch-icon.png);
+}
+
+.filter-icon {
+  background-image: url(./images/filter-icon.png);
+}
+
+.slider-icon {
+  background-image: url(./images/slider-icon.png);
+}
+
+.bars-icon {
+  background-image: url(./images/bars-icon.png);
+}
+
+.description {
+  text-align: center;
+}
+
+p {
+  margin-top: 35px;
+}
