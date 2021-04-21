@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbulb-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc(100% / 3);
+}
+
+.lightbulb {
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+}
+
+.light-on-background {
+  background-color: #fff8f1;
+}
+
+.light-off-background {
+  background-color: #111;
+}
+
+.lights-on {
+  background-color: #faea84;
+  box-shadow: 0 0 15px 15px #fff6cc;
+}
+
+.lights-off {
+  background-color: #222;
+  box-shadow: 0 -10px 0 8px #0c0b09;
+}
