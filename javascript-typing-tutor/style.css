@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Zilla Slab', serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+span {
+  font-size: 50px;
+}
+
+.keyDown {
+  border-bottom: 2px solid black;
+}
+
+.key-right {
+  color: rgb(53, 210, 54);
+  border-bottom: 2px solid white;
+}
+
+.key-wrong {
+  color: #ef233c;
+  border-bottom: 2px solid #ef233c;
+}
